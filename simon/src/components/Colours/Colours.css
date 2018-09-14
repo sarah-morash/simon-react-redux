@@ -1,0 +1,53 @@
+.flex-container {
+  margin: 100px auto;
+  display: flex;
+  width: 500px;
+  height: 500px;
+  background: #222;
+  flex-wrap: wrap;
+}
+
+.colors {
+  margin: auto;
+  height: 240px;
+  width: 240px;
+}
+
+.t-l {
+  background: green;
+  border-top-left-radius: 100%;
+}
+
+.t-r {
+  background: red;
+  border-top-right-radius: 100%;
+}
+
+.b-l {
+  background: yellow;
+  border-bottom-left-radius: 100%;
+}
+
+.b-r {
+  background: blue;
+  border-bottom-right-radius: 100%;
+}
+
+.center {
+  position: absolute;
+  border-radius: 100%;
+
+  margin: 150px 0 0 150px;
+  background: white;
+  width: 200px;
+  height: 200px;
+  border: 12px solid #333;
+}
+
+#container {
+  color: black;
+}
+
+.anim {
+  opacity: 0.2;
+}
